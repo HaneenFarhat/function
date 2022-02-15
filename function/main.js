@@ -155,21 +155,63 @@ num2++
 
 
 
-const formatArr= function (arr) {
+//     const formatArr= function (arr) {
+
+
+
+//         for (let i = 0; i < arr.length; i++) {
+//             arr[i] = "hello " + arr[i]
+
+//         }
+//     }
+//     formatArr(arr1)
+// console.log(arr1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const formatArr= function (arr) {
+
+
+
+//     for (let i = 0; i < arr.length; i++) {
+//         arr[i] = arr[i]
+//         arr1[i]=arr1[i].toUpperCase()
+
+//     }
+// }
+// formatArr(arr1)
+// console.log(arr1);
+
+
+
+
+
+const capitalize= function (arr) {
 
 
 
     for (let i = 0; i < arr.length; i++) {
-        arr[i] = "hello " + arr[i]
+        arr[i] = arr[i].split('')
+        arr[i] [0]= arr[i][0].toUpperCase()
+        arr[i]=arr[i].join('')
+    
 
     }
 }
-formatArr(arr1)
+capitalize(arr1)
 console.log(arr1);
-
-
-
-
 
 
 
